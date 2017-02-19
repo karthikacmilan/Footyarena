@@ -209,6 +209,10 @@
     <Compile Include="Migrations\201702190532255_createMatchTable.Designer.cs">
       <DependentUpon>201702190532255_createMatchTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702190620521_Overrideconventionsformatchesandleagues.cs" />
+    <Compile Include="Migrations\201702190620521_Overrideconventionsformatchesandleagues.Designer.cs">
+      <DependentUpon>201702190620521_Overrideconventionsformatchesandleagues.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -296,6 +300,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702190532255_createMatchTable.resx">
       <DependentUpon>201702190532255_createMatchTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702190620521_Overrideconventionsformatchesandleagues.resx">
+      <DependentUpon>201702190620521_Overrideconventionsformatchesandleagues.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
